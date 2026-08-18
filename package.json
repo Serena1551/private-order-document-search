@@ -1,0 +1,21 @@
+{
+  "name": "private-order-document-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "tsx --test test/order_search.test.ts",
+    "start": "tsx src/order_search_service.ts",
+    "demo": "tsx src/checkout_update_demo.ts"
+  },
+  "dependencies": {
+    "openai": "^5.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
